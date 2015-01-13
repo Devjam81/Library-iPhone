@@ -70,7 +70,7 @@ brew install ifuse
 brew install glib
 
 # Install Optional;
-
+brew install screenfetch
 
 # Install extras;
 brew install bfg
