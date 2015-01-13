@@ -67,6 +67,7 @@ brew install pkg-config
 brew install gcc
 brew install libusb
 brew install ifuse
+brew install glib
 
 # Install Optional;
 
