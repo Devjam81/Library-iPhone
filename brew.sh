@@ -56,8 +56,6 @@ brew install libxml2
 brew install libzip
 brew install openssl
 brew install clutter
-brew install ifuse
-
 
 # Install Software;
 brew install automake
@@ -73,6 +71,7 @@ brew install glib
 
 # Install Optional;
 brew install screenfetch
+brew install Caskroom/cask/osxfuse
 
 # Install extras;
 brew install bfg
