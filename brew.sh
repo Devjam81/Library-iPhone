@@ -56,6 +56,8 @@ brew install libxml2
 brew install libzip
 brew install openssl
 brew install clutter
+brew install cogl
+
 
 # Install Software;
 brew install automake
