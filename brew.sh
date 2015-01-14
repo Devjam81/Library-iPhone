@@ -55,6 +55,7 @@ brew install homebrew/php/php55 --with-gmp
 brew install libxml2
 brew install libzip
 brew install openssl
+brew install clutter
 
 
 # Install Software;
