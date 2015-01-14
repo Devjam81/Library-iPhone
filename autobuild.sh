@@ -5,7 +5,7 @@
 successlibs=()
 failedlibs=()
 libs=( "libplist" "libusbmuxd" "libimobiledevice" "usbmuxd" "libirecovery" \
-	"ideviceinstaller" "libideviceactivation" "idevicerestore" "ifuse" "sbmanager" )
+	"ideviceinstaller" "libideviceactivation" "idevicerestore" "ifuse" )
 
 spinner() {
     local pid=$1
