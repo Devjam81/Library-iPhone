@@ -56,6 +56,7 @@ brew install libxml2
 brew install libzip
 brew install openssl
 brew install clutter
+brew install ifuse
 
 
 # Install Software;
