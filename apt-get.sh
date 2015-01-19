@@ -32,6 +32,7 @@ sudo apt-get install -y libglib2.0-dev
 sudo apt-get install -y libzip-dev
 sudo apt-get install -y libclutter-1.0-dev
 sudo apt-get install -y libgtk2.0-dev
+sudo apt-get install -y libclutter-gtk-1.0-dev
  
 sudo apt-get install -y subversion
 sudo apt-get install -y python-2.7
