@@ -34,6 +34,7 @@ sudo apt-get install -y libclutter-1.0-dev
 sudo apt-get install -y libgtk2.0-dev
 sudo apt-get install -y libclutter-gtk-1.0-dev
 sudo apt-get install -y lib32bz2-dev
+sudo apt-get install -y libfuse-dev
  
 sudo apt-get install -y subversion
 sudo apt-get install -y python-2.7
@@ -42,6 +43,7 @@ sudo apt-get install -y python2.7-scipy
 sudo apt-get install -y ipython
 sudo apt-get install -y firefox-3.0
 sudo apt-get install -y mozilla-firefox-adblock
+
  
 sudo apt-get install -y lyx
  
