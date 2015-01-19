@@ -53,7 +53,7 @@ sudo apt-get install -y ncurses-base
  
 
  
-All material © 2007-2015, Charles Reid.
+All material © 2007-2015, Elrhk.
 
  
 
