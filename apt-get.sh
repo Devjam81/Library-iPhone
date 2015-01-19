@@ -27,6 +27,8 @@ sudo apt-get install -y libgfortran2
 sudo apt-get install -y libgfortran
 sudo apt-get install -y libgcc1
 sudo apt-get install -y libreadline-dev 
+sudo apt-get install -y libglib2.0-dev
+
  
 sudo apt-get install -y subversion
 sudo apt-get install -y python-2.7
