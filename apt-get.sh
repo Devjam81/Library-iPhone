@@ -1,4 +1,7 @@
 #!/bin/sh
+# Elrhk 12/01/2015 - install paquet et dependances
+# install script for Libimobiledevice success linux
+echo -e "\033[1;32minstallpacket $i..."
  
 sudo apt-get install -y build-essential
 sudo apt-get install -y make
@@ -51,14 +54,9 @@ sudo apt-get install -y libncurses4
 sudo apt-get install -y libncurses5 
 sudo apt-get install -y ncurses-base
 
+echo -e "\033[1;37mLibimobiledevice library build script - Elrhk 2015"
 
-
- 
-
- 
-
- 
-All material © 2007-2015, Elrhk.
+ echo -e "\033[1;37m© 2013-2015, Elrhk.
 
  
 
