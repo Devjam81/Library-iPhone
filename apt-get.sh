@@ -26,6 +26,7 @@ sudo apt-get install -y libgfortran1
 sudo apt-get install -y libgfortran2
 sudo apt-get install -y libgfortran
 sudo apt-get install -y libgcc1
+sudo apt-get install -y libreadline-dev 
  
 sudo apt-get install -y subversion
 sudo apt-get install -y python-2.7
@@ -41,7 +42,7 @@ sudo apt-get install -y libncurses4
 sudo apt-get install -y libncurses5 
 sudo apt-get install -y ncurses-base
 
-Categories: Scripts | Unix
+
 
  
 
