@@ -1,13 +1,3 @@
-VERT="\\033[1;32m" NORMAL="\\033[0;39m" ROUGE="\\033[1;31m" ROSE="\\033[1;35m" BLEU="\\033[1;34m" BLANC="\\033[0;02m" BLANCLAIR="\\033[1;08m" JAUNE="\\033[1;33m" CYAN="\\033[1;36m" echo "" echo -e "$VERT" " ------------------ ""$ROUGE""Y o u W i l l B e C o l o r e d ""$VERT"" ------------ " "$NORMAL" echo " | Color bash script | " echo -e " | written by""$VERT" "selim,b." "$CYAN""(s.bouras@free.fr) " "$NORMAL" " | " echo -e " | This script is""$BLEU"" free Licence""$NORMAL"" | " echo -e "$VERT" " -------------------------------------------------------------------- " "$NORMAL" echo -e " $BLEU" " Ok!!..Dear ... Your bash is colored .. Have Fun!!.."
-
-Apt-get script.sh
-
-Main article: Aptitude
-
-I always run this script right after installing Ubuntu Linux (or Debian, if I used it).
-
-It installs a bunch of useful stuff for building software from source.
-
 #!/bin/sh
  
 sudo apt-get install -y build-essential
