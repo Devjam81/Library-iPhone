@@ -21,6 +21,9 @@ sudo apt-get install -y lynx
 sudo apt-get install -y tetex-base tetex-bin tetex-extra
 sudo apt-get install -y sed
 sudo apt-get install -y awk
+sudo apt-get install -y fuse
+
+
  
 sudo apt-get install -y libgfortran1
 sudo apt-get install -y libgfortran2
