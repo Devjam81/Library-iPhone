@@ -54,9 +54,11 @@ brew install gnu-sed --with-default-names
 # Install Development Packages;
 brew install libxml2
 brew install libzip
+brew install libplist
 brew install openssl
 brew install clutter
 brew install cogl
+brew install usbmuxd
 
 
 # Install Software;
