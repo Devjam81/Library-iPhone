@@ -16,9 +16,10 @@ sudo apt-get install -y gcc
 sudo apt-get install -y libstdc++6-dev
 sudo apt-get install -y libc6-dev
 sudo apt-get install -y libssl-dev
+sudo apt-get install -y libusb-1.0
 sudo apt-get install -y gcc4.2
 sudo apt-get install -y g++
-#sudo apt-get install -yf g77
+sudo apt-get install -y libcurl4-gnutls-dev
 #sudo apt-get install -yf gfortran
 #sudo apt-get install -yf gnuplot
 #sudo apt-get install -yf octave
