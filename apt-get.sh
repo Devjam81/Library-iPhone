@@ -7,13 +7,15 @@ sudo apt-get install -y build-essential
 sudo apt-get install -y make
 sudo apt-get install -y autoconf
 sudo apt-get install -y automake
-#sudo apt-get install -y flex
+sudo apt-get install -y libtool
+sudo apt-get install -y openssl
 sudo apt-get install -y tar
 sudo apt-get install -y perl
 sudo apt-get install -y binutils
 sudo apt-get install -y gcc
 sudo apt-get install -y libstdc++6-dev
 sudo apt-get install -y libc6-dev
+sudo apt-get install -y libssl-dev
 sudo apt-get install -y gcc4.2
 sudo apt-get install -y g++
 #sudo apt-get install -yf g77
