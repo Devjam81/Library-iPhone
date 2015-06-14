@@ -59,7 +59,7 @@ sudo apt-get install -y ncurses-base
 
 echo -e "\033[1;37mLibimobiledevice library build script - Elrhk 2015"
 
- echo -e "\033[1;37m© 2013-2015, Elrhk.
+ echo -e "\033[1;37m© 2013-2015, Elrhk."
 
  
 
