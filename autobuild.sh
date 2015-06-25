@@ -43,5 +43,6 @@ function main {
 	buildlibs
 }
 
+echo -e sudo ldconfig
 echo -e "\033[1;37mLibimobiledevice library build script - Elrhk 2015"
 main
