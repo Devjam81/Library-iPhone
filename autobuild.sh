@@ -38,7 +38,7 @@ buildlibs() {
 	done
 	echo -e "\033[0m"
 	
-	echo -e 
+	echo -e "ldconfig"
 }
 
 function main {
