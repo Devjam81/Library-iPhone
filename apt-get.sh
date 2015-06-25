@@ -8,6 +8,8 @@ sudo apt-get install -y make
 sudo apt-get install -y autoconf
 sudo apt-get install -y automake
 sudo apt-get install -y libtool
+sudo apt-get install -y libxml2-dev
+sudo apt-get install -y cython 
 sudo apt-get install -y openssl
 sudo apt-get install -y tar
 sudo apt-get install -y perl
