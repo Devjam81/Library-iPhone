@@ -25,18 +25,18 @@ spinner() {
 buildlibs() {
 	for i in "${libs[@]}"
 	do
-		echo -e "\035[1;32mFetching $i..."
+		echo -e "\033[1;32mFetching $i..."
 		git clone https://github.com/libimobiledevice/${i}.git
 		cd $i
-		echo -e "\035[1;32mConfiguring $i..."
+		echo -e "\033[1;32mConfiguring $i..."
 		./autogen.sh
 		./configure
-		echo -e "\035[1;32mBuilding $i..."
+		echo -e "\033[1;32mBuilding $i..."
 		make && sudo make install
-		echo -e "\035[1;32mInstalling $i..."
+		echo -e "\033[1;32mInstalling $i..."
 		cd ..
 	done
-	echo -e "\035[0m"
+	echo -e "\033[0m"
 	
 	echo -e "sudo ldconfig"
 }
@@ -44,5 +44,5 @@ buildlibs() {
 function main {
 	buildlibs
 }
-echo -e "\031[1;37mLibimobiledevice library build script - Elrhk 2015"
+echo -e "\033[1;37mLibimobiledevice library build script - Elrhk 2015"
 main
