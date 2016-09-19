@@ -41,8 +41,8 @@ brew install wget --with-iri
 # Install RingoJS and Narwhal.
 # Note that the order in which these are installed is important;
 # see http://git.io/brew-narwhal-ringo.
-brew install ringojs
-brew install narwhal
+#brew install ringojs
+#brew install narwhal
 
 # Install more recent versions of some OS X tools.
 brew install vim --override-system-vi
@@ -59,7 +59,8 @@ brew install openssl
 brew install clutter
 brew install cogl
 brew install usbmuxd
-
+brew install libplist
+brew install libimobiledevice
 
 # Install Software;
 brew install automake
@@ -78,26 +79,26 @@ brew install screenfetch
 brew install Caskroom/cask/osxfuse
 
 # Install extras;
-brew install bfg
-brew install binutils
-brew install binwalk
-brew install cifer
-brew install dex2jar
-brew install dns2tcp
-brew install fcrackzip
-brew install foremost
-brew install hashpump
-brew install hydra
-brew install john
-brew install knock
-brew install nmap
-brew install pngcheck
-brew install socat
-brew install sqlmap
-brew install tcpflow
-brew install tcpreplay
-brew install tcptrace
-brew install ucspi-tcp # `tcpserver` etc.
+#brew install bfg
+#brew install binutils
+#brew install binwalk
+#brew install cifer
+#brew install dex2jar
+#brew install dns2tcp
+#brew install fcrackzip
+#brew install foremost
+#brew install hashpump
+#brew install hydra
+#brew install john
+#brew install knock
+#brew install nmap
+#brew install pngcheck
+#brew install socat
+#brew install sqlmap
+#brew install tcpflow
+#brew install tcpreplay
+#brew install tcptrace
+#brew install ucspi-tcp # `tcpserver` etc.
 brew install xz
 
 # Install other useful binaries.
