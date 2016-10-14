@@ -131,4 +131,4 @@ elif [[ $(uname) == 'Darwin' ]]; then
 fi
 build_libimobiledevice
 echo -e "\033[31m\033[1m\033[4m\033[5m\033[7mLibimobiledevice installed success Thanks for use Script\033[0m"
-main
+
