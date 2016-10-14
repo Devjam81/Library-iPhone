@@ -1,6 +1,6 @@
-#!/bin/bash
-echo -e "\033[31mDev-Jam 12/01/2015 - install autobuild script for install Libimobiledevice\033[0m"
-echo -e "\033[31m\033[1m\033[4m\033[5m\033[7mCreator Dev-Jam Remasterized for Matteyeux le 27/12/15\033[0m"
+##!/bin/bash
+echo -e "\033[31mDev-Jam 12/01/2015 - Script to build Libimobiledevice\033[0m"
+echo -e "\033[32m\033[1m\033[4m\033[5m\033[7mCreator Dev-Jam improved by matteyeux on 27/12/15\033[0m"
 
 #######################################################################
 #
@@ -29,8 +29,14 @@ function depends(){
 
 function brew_install(){
         # Install Hombrew.
-        ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
+        if [[ ! -e $(which brew) ]]; then
+                echo "Brew is not installed..."
+                echo "installing brew..."
+                sleep 1
+                ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+        else
+                echo "Brew already installed"
+        fi
 
         # Install command-line tools using Homebrew.
 
@@ -63,14 +69,12 @@ function brew_install(){
         brew install pkg-config
         brew install gcc
         brew install libusb
-        brew install ifuse
         brew install glib
 
         # Install Optional;
         brew install Caskroom/cask/osxfuse
 
         
-
         # Install other useful binaries.
         brew install ack
         #brew install exiv2
@@ -78,6 +82,7 @@ function brew_install(){
 
         # Remove outdated versions from the cellar.
         brew cleanup
+         
 }
 
 function build_libimobiledevice(){
@@ -121,7 +126,11 @@ function build_libimobiledevice(){
         }
 
         buildlibs
-        sudo ldconfig
+        if [[ -e $(which ldconfig) ]]; then
+        	ldconfig
+        else 
+        	echo " "
+        fi
 }
 
 if [[ $(uname) == 'Linux' ]]; then
@@ -130,5 +139,4 @@ elif [[ $(uname) == 'Darwin' ]]; then
         brew_install
 fi
 build_libimobiledevice
-echo -e "\033[31m\033[1m\033[4m\033[5m\033[7mLibimobiledevice installed success Thanks for use Script\033[0m"
-
+echo -e "\033[32m\033[1m\033[4m\033[5m\033[7mLibimobiledevice installed success Thanks for use Script\033[0m"
