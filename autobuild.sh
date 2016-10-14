@@ -1,6 +1,6 @@
 #!/bin/bash
-echo -e "Dev-Jam 12/01/2015 - install auto"
-echo -e "build script for insall Libimobiledevice"
+echo -e "\033[31mDev-Jam 12/01/2015 - install autobuild script for install Libimobiledevice\033[0m"
+echo -e "\033[31m\033[1m\033[4m\033[5m\033[7mCreator Dev-Jam Remasterized for Matteyeux le 27/12/15\033[0m"
 
 #######################################################################
 #
@@ -46,25 +46,11 @@ function brew_install(){
         # Upgrade any already-installed formulae.
         brew upgrade
 
-        # Install GNU core utilities (those that come with OS X are outdated).
-        # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
-        brew install coreutils
-        sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
-
-        # Install some other useful utilities like `sponge`.
-        brew install moreutils
-        # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
-        brew install findutils
-        # Install GNU `sed`, overwriting the built-in `sed`.
-        brew install gnu-sed --with-default-names
-
-        # Install Development Packages;
+	 # Install Development Packages;
         brew install libxml2
         brew install libzip
         brew install libplist
         brew install openssl
-        brew install clutter
-        brew install cogl
         brew install usbmuxd
 
 
@@ -81,45 +67,14 @@ function brew_install(){
         brew install glib
 
         # Install Optional;
-        brew install screenfetch
         brew install Caskroom/cask/osxfuse
 
-        # Install extras;
-        brew install bfg
-        brew install binutils
-        brew install binwalk
-        brew install cifer
-        brew install dex2jar
-        brew install dns2tcp
-        brew install fcrackzip
-        brew install foremost
-        brew install hashpump
-        brew install hydra
-        brew install john
-        brew install knock
-        brew install nmap
-        brew install pngcheck
-        brew install socat
-        brew install sqlmap
-        brew install tcpflow
-        brew install tcpreplay
-        brew install tcptrace
-        brew install ucspi-tcp # `tcpserver` etc.
-        brew install xz
+        
 
         # Install other useful binaries.
         brew install ack
         #brew install exiv2
         brew install git
-        #brew install imagemagick --with-webp
-        brew install lua
-        brew install lynx
-        brew install p7zip
-        brew install pigz
-
-        # Install Node.js. Note: this installs `npm` too, using the recommended
-        # installation method.
-        brew install node
 
         # Remove outdated versions from the cellar.
         brew cleanup
@@ -175,5 +130,5 @@ elif [[ $(uname) == 'Darwin' ]]; then
         brew_install
 fi
 build_libimobiledevice
-echo -e "\031[1;37mLibimobiledevice library build script - Elrhk 2015"
+echo -e "\033[31m\033[1m\033[4m\033[5m\033[7mLibimobiledevice installed success Thanks for use Script\033[0m"
 main
