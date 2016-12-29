@@ -1,4 +1,4 @@
-##!/bin/bash
+#!/bin/bash
 echo -e "\033[31mDev-Jam 12/01/2015 - Script to build Libimobiledevice\033[0m"
 echo -e "\033[32m\033[1m\033[4m\033[5m\033[7mCreator Dev-Jam improved by matteyeux on 27/12/15\033[0m"
 
