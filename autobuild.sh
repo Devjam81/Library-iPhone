@@ -19,7 +19,7 @@ function depends(){
                 libcurl4-gnutls-dev fuse libxml2-dev \
                 libgcc1 libreadline-dev libglib2.0-dev libzip-dev \
                 libclutter-1.0-dev  \
-                libfuse-dev cython python2.7 \
+                libfuse-dev python-dev python2.7 \
                 libncurses5
         else
                 echo "Package manager is not supported"
