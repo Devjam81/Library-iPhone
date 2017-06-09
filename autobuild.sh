@@ -18,7 +18,7 @@ function depends(){
                 libc6-dev libssl-dev libusb-1.0-0-dev \
                 libcurl4-gnutls-dev fuse libxml2-dev \
                 libgcc1 libreadline-dev libglib2.0-dev libreadline-dev \
-                libclutter-1.0-dev  \
+                libclutter-1.0-dev libzip-dev cython \
                 libfuse-dev python-dev python2.7 \
                 libncurses5
         else
