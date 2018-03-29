@@ -56,8 +56,14 @@ function brew_install(){
         brew install libxml2
         brew install libzip
         brew install libplist
-        brew install openssl
-        brew install usbmuxd
+        brew update    
+	brew install openssl    
+	ln -s /usr/local/opt/openssl/lib/libcrypto.1.0.0.dylib /usr/local/lib/    
+	ln -s /usr/local/opt/openssl/lib/libssl.1.0.0.dylib /usr/local/lib
+        brew install --HEAD libimobiledevice
+	brew link --overwrite libimobiledevice
+	brew install gnutls
+	brew install usbmuxd
 
 
         # Install Software;
